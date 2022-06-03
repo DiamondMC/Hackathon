@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="images/icon.png" rel="icon">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <script src="js/bootstrap.min.js"></script>
+        <title>Bubble Sort</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="">
+                    <img src="images/logo.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link active" aria-current="page" href="">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="algorithm/">Algorithm</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="examples/">Examples</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="content" class="grid col-10 col-md-8 col-lg-6 mx-auto">
+            <div id="description" class="card">
+                <h4 class="card-header">Description</h4>
+                <div class="card-body">
+                    <p class="card-text">Pigeonhole Sort, sometimes referred to as sinking sort, is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted.</p>
+                </div>
+            </div>
+            <div id="image" class="card d-flex justify-content-center">
+                <img src="images/sort-image.png" alt="...">
+            </div>
+            <div id="info" class="card">
+                <h4 class="card-header">Info</h4>
+                <div class="card-body">
+                    <h5>Time Complexity</h5>
+                    Worst complexity: n^2 <br>
+                    Average complexity: n^2 <br>
+                    Best complexity: n
+                </div>
+            </div>
+            <div id="use" class="card">
+                <h4 class="card-header">Use</h4>
+                <div class="card-body">
+                    <p class="card-text">Although bubble sort is one of the simplest sorting algorithms to understand and implement, its O(n^2) complexity means that its efficiency decreases dramatically on lists of more than a small number of elements. Even among simple O(n^2) sorting algorithms, algorithms like insertion sort are usually considerably more efficient.</p>
+                    <p class="card-text">Due to its simplicity, bubble sort is often used to introduce the concept of an algorithm, or a sorting algorithm, to introductory computer science students. However, some researchers such as Owen Astrachan have gone to great lengths to disparage bubble sort and its continued popularity in computer science education, recommending that it no longer even be taught.</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
