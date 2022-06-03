@@ -6,7 +6,7 @@
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
         <script src="js/bootstrap.min.js"></script>
-        <title>Bubble Sort</title>
+        <title>Pigeonhole Sort</title>
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
@@ -36,7 +36,7 @@
             <div id="description" class="card">
                 <h4 class="card-header">Description</h4>
                 <div class="card-body">
-                    <p class="card-text">Pigeonhole Sort, sometimes referred to as sinking sort, is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted.</p>
+                    <p class="card-text">Pigeonhole Sort, is a sorting algorithm in which you create an array of empty "pigeonholes" with size range, which is the largest number minus the smallest plus one. Next it goes through each element individually and puts each one in its pigeonhole, or empty slot. It will repeat the whole thing over and over, adding the non-empty pigeonholes into the original array, until it's finished.</p>
                 </div>
             </div>
             <div id="image" class="card d-flex justify-content-center">
@@ -46,16 +46,13 @@
                 <h4 class="card-header">Info</h4>
                 <div class="card-body">
                     <h5>Time Complexity</h5>
-                    Worst complexity: n^2 <br>
-                    Average complexity: n^2 <br>
-                    Best complexity: n
+                    Average complexity: O(n+range) <br>
                 </div>
             </div>
             <div id="use" class="card">
                 <h4 class="card-header">Use</h4>
                 <div class="card-body">
-                    <p class="card-text">Although bubble sort is one of the simplest sorting algorithms to understand and implement, its O(n^2) complexity means that its efficiency decreases dramatically on lists of more than a small number of elements. Even among simple O(n^2) sorting algorithms, algorithms like insertion sort are usually considerably more efficient.</p>
-                    <p class="card-text">Due to its simplicity, bubble sort is often used to introduce the concept of an algorithm, or a sorting algorithm, to introductory computer science students. However, some researchers such as Owen Astrachan have gone to great lengths to disparage bubble sort and its continued popularity in computer science education, recommending that it no longer even be taught.</p>
+                    <p class="card-text">Pigeon hole, is a very simple type of sort. It can be used to show the concept of a sorting algorithms, to computer science students. It is also quite efficient, which makes it very good for any beginners</p>
                 </div>
             </div>
         </div>
