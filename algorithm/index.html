@@ -6,7 +6,7 @@
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/style.css" rel="stylesheet">
         <script src="../js/bootstrap.min.js"></script>
-        <title>Bubble Sort</title>
+        <title>Pigeonhole Sort</title>
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
@@ -34,14 +34,13 @@
         </nav>
         <div id="content" class="col-10 col-md-8 col-lg-6 mx-auto">
             <h1>Algorithm</h1>
-            <p>We assume list is an array of n elements. We further assume that swap function swaps the values of the given array elements.</p>
+            <p>We assume list is an array of n elements. and range is the largest number minus the smallest plus 1.</p>
             The algorithim works as follows: <br>
             <ol>
-                <li>For every element in the list:</li>
-                <li>Check if the current element is greater than the one to its right</li>
-                <li>If the left element is greater than swap the elements</li>
-                <li>Move to the next element</li>
-                <li>Repeat steps 1-4 until no swaps are made</li>
+                <li>Create an array of empty pigeonholes with size range</li>
+                <li>Check each element in the original array and put it in its pigeonhole</li>
+                <li>put the non-empty pigeonholes back into the original array</li>
+                <li>Repeat until it is fully sorted.</li>
             </ol>
         </div>
     </body>
